@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEAE7DF82BF75F570087FA88 /* Tiger_StrikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7DF72BF75F570087FA88 /* Tiger_StrikeApp.swift */; };
+		EEAE7DFA2BF75F570087FA88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7DF92BF75F570087FA88 /* ContentView.swift */; };
+		EEAE7DFC2BF75F590087FA88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAE7DFB2BF75F590087FA88 /* Assets.xcassets */; };
+		EEAE7DFF2BF75F590087FA88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAE7DFE2BF75F590087FA88 /* Preview Assets.xcassets */; };
+		EEAE7E072BF76C4F0087FA88 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E062BF76C4F0087FA88 /* MainView.swift */; };
+		EEAE7E0A2BF76E0C0087FA88 /* LevelsStrikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E092BF76E0C0087FA88 /* LevelsStrikeView.swift */; };
+		EEAE7E0D2BF76F5E0087FA88 /* LevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E0C2BF76F5E0087FA88 /* LevelModel.swift */; };
+		EEAE7E0F2BF7701F0087FA88 /* LevelsRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E0E2BF7701F0087FA88 /* LevelsRep.swift */; };
+		EEAE7E112BF773170087FA88 /* kung_fu_master_3d_italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = EEAE7E102BF773170087FA88 /* kung_fu_master_3d_italic.otf */; };
+		EEAE7E162BF780460087FA88 /* SettingsStrikeGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E152BF780460087FA88 /* SettingsStrikeGameView.swift */; };
+		EEAE7E182BF796AC0087FA88 /* PointsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E172BF796AC0087FA88 /* PointsData.swift */; };
+		EEAE7E1A2BF796E20087FA88 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E192BF796E20087FA88 /* StoreView.swift */; };
+		EEAE7E1C2BF796EE0087FA88 /* StoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E1B2BF796ED0087FA88 /* StoreData.swift */; };
+		EEAE7E1F2BF7AC2F0087FA88 /* StrikeGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E1E2BF7AC2F0087FA88 /* StrikeGameScene.swift */; };
+		EEAE7E222BF7C2A30087FA88 /* menu.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEAE7E212BF7C2A30087FA88 /* menu.wav */; };
+		EEAE7E242BF7C2AA0087FA88 /* game_fon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEAE7E232BF7C2AA0087FA88 /* game_fon.mp3 */; };
+		EEAE7E262BF7C46F0087FA88 /* StrikeGameSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE7E252BF7C46F0087FA88 /* StrikeGameSceneView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEAE7DF42BF75F570087FA88 /* Tiger Strike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tiger Strike.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEAE7DF72BF75F570087FA88 /* Tiger_StrikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiger_StrikeApp.swift; sourceTree = "<group>"; };
+		EEAE7DF92BF75F570087FA88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEAE7DFB2BF75F590087FA88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEAE7DFE2BF75F590087FA88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEAE7E062BF76C4F0087FA88 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EEAE7E092BF76E0C0087FA88 /* LevelsStrikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsStrikeView.swift; sourceTree = "<group>"; };
+		EEAE7E0C2BF76F5E0087FA88 /* LevelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelModel.swift; sourceTree = "<group>"; };
+		EEAE7E0E2BF7701F0087FA88 /* LevelsRep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsRep.swift; sourceTree = "<group>"; };
+		EEAE7E102BF773170087FA88 /* kung_fu_master_3d_italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kung_fu_master_3d_italic.otf; sourceTree = "<group>"; };
+		EEAE7E122BF7732B0087FA88 /* Tiger-Strike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Tiger-Strike-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EEAE7E152BF780460087FA88 /* SettingsStrikeGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStrikeGameView.swift; sourceTree = "<group>"; };
+		EEAE7E172BF796AC0087FA88 /* PointsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsData.swift; sourceTree = "<group>"; };
+		EEAE7E192BF796E20087FA88 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		EEAE7E1B2BF796ED0087FA88 /* StoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreData.swift; sourceTree = "<group>"; };
+		EEAE7E1E2BF7AC2F0087FA88 /* StrikeGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrikeGameScene.swift; sourceTree = "<group>"; };
+		EEAE7E212BF7C2A30087FA88 /* menu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = menu.wav; sourceTree = "<group>"; };
+		EEAE7E232BF7C2AA0087FA88 /* game_fon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game_fon.mp3; sourceTree = "<group>"; };
+		EEAE7E252BF7C46F0087FA88 /* StrikeGameSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrikeGameSceneView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEAE7DF12BF75F570087FA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEAE7DEB2BF75F570087FA88 = {
+			isa = PBXGroup;
+			children = (
+				EEAE7DF62BF75F570087FA88 /* Tiger Strike */,
+				EEAE7DF52BF75F570087FA88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEAE7DF52BF75F570087FA88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7DF42BF75F570087FA88 /* Tiger Strike.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEAE7DF62BF75F570087FA88 /* Tiger Strike */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E202BF7C28E0087FA88 /* Audio */,
+				EEAE7E142BF7790E0087FA88 /* Store */,
+				EEAE7E132BF779050087FA88 /* Settings */,
+				EEAE7E122BF7732B0087FA88 /* Tiger-Strike-Info.plist */,
+				EEAE7E102BF773170087FA88 /* kung_fu_master_3d_italic.otf */,
+				EEAE7E0B2BF76F4F0087FA88 /* Model */,
+				EEAE7E082BF76D9C0087FA88 /* GameContent */,
+				EEAE7E052BF7658B0087FA88 /* Main */,
+				EEAE7DF72BF75F570087FA88 /* Tiger_StrikeApp.swift */,
+				EEAE7DF92BF75F570087FA88 /* ContentView.swift */,
+				EEAE7DFB2BF75F590087FA88 /* Assets.xcassets */,
+				EEAE7DFD2BF75F590087FA88 /* Preview Content */,
+				EEAE7E172BF796AC0087FA88 /* PointsData.swift */,
+			);
+			path = "Tiger Strike";
+			sourceTree = "<group>";
+		};
+		EEAE7DFD2BF75F590087FA88 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7DFE2BF75F590087FA88 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEAE7E052BF7658B0087FA88 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E062BF76C4F0087FA88 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EEAE7E082BF76D9C0087FA88 /* GameContent */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E1D2BF7AC250087FA88 /* Scene */,
+				EEAE7E092BF76E0C0087FA88 /* LevelsStrikeView.swift */,
+				EEAE7E0E2BF7701F0087FA88 /* LevelsRep.swift */,
+				EEAE7E252BF7C46F0087FA88 /* StrikeGameSceneView.swift */,
+			);
+			path = GameContent;
+			sourceTree = "<group>";
+		};
+		EEAE7E0B2BF76F4F0087FA88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E0C2BF76F5E0087FA88 /* LevelModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEAE7E132BF779050087FA88 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E152BF780460087FA88 /* SettingsStrikeGameView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EEAE7E142BF7790E0087FA88 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E192BF796E20087FA88 /* StoreView.swift */,
+				EEAE7E1B2BF796ED0087FA88 /* StoreData.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		EEAE7E1D2BF7AC250087FA88 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E1E2BF7AC2F0087FA88 /* StrikeGameScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		EEAE7E202BF7C28E0087FA88 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE7E212BF7C2A30087FA88 /* menu.wav */,
+				EEAE7E232BF7C2AA0087FA88 /* game_fon.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEAE7DF32BF75F570087FA88 /* Tiger Strike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEAE7E022BF75F590087FA88 /* Build configuration list for PBXNativeTarget "Tiger Strike" */;
+			buildPhases = (
+				EEAE7DF02BF75F570087FA88 /* Sources */,
+				EEAE7DF12BF75F570087FA88 /* Frameworks */,
+				EEAE7DF22BF75F570087FA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tiger Strike";
+			productName = "Tiger Strike";
+			productReference = EEAE7DF42BF75F570087FA88 /* Tiger Strike.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEAE7DEC2BF75F570087FA88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					EEAE7DF32BF75F570087FA88 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = EEAE7DEF2BF75F570087FA88 /* Build configuration list for PBXProject "Tiger Strike" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEAE7DEB2BF75F570087FA88;
+			productRefGroup = EEAE7DF52BF75F570087FA88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEAE7DF32BF75F570087FA88 /* Tiger Strike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEAE7DF22BF75F570087FA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAE7E242BF7C2AA0087FA88 /* game_fon.mp3 in Resources */,
+				EEAE7E112BF773170087FA88 /* kung_fu_master_3d_italic.otf in Resources */,
+				EEAE7E222BF7C2A30087FA88 /* menu.wav in Resources */,
+				EEAE7DFF2BF75F590087FA88 /* Preview Assets.xcassets in Resources */,
+				EEAE7DFC2BF75F590087FA88 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEAE7DF02BF75F570087FA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAE7E0D2BF76F5E0087FA88 /* LevelModel.swift in Sources */,
+				EEAE7E1C2BF796EE0087FA88 /* StoreData.swift in Sources */,
+				EEAE7E162BF780460087FA88 /* SettingsStrikeGameView.swift in Sources */,
+				EEAE7E182BF796AC0087FA88 /* PointsData.swift in Sources */,
+				EEAE7DFA2BF75F570087FA88 /* ContentView.swift in Sources */,
+				EEAE7E0F2BF7701F0087FA88 /* LevelsRep.swift in Sources */,
+				EEAE7E0A2BF76E0C0087FA88 /* LevelsStrikeView.swift in Sources */,
+				EEAE7E1F2BF7AC2F0087FA88 /* StrikeGameScene.swift in Sources */,
+				EEAE7E072BF76C4F0087FA88 /* MainView.swift in Sources */,
+				EEAE7E262BF7C46F0087FA88 /* StrikeGameSceneView.swift in Sources */,
+				EEAE7E1A2BF796E20087FA88 /* StoreView.swift in Sources */,
+				EEAE7DF82BF75F570087FA88 /* Tiger_StrikeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEAE7E002BF75F590087FA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEAE7E012BF75F590087FA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEAE7E032BF75F590087FA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tiger Strike/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tiger-Strike-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Tiger-Strike";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EEAE7E042BF75F590087FA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tiger Strike/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tiger-Strike-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Tiger-Strike";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEAE7DEF2BF75F570087FA88 /* Build configuration list for PBXProject "Tiger Strike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAE7E002BF75F590087FA88 /* Debug */,
+				EEAE7E012BF75F590087FA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEAE7E022BF75F590087FA88 /* Build configuration list for PBXNativeTarget "Tiger Strike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAE7E032BF75F590087FA88 /* Debug */,
+				EEAE7E042BF75F590087FA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEAE7DEC2BF75F570087FA88 /* Project object */;
+}
